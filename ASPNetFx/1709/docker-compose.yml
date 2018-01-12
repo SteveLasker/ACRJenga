@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aspnetfx:
+    image: acr-jenga/aspnetfx:4.7.1-windowsservercore-ltsc2016
+    build:
+      context: .\ASPNetFx
+      dockerfile: Dockerfile

@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  aspnetcore:
+    image: acr-jenga/aspnetcore:2.0-nanoserver-1709
+    build:
+      context: .
+      dockerfile: AspNetCore\Dockerfile
